@@ -17,3 +17,18 @@ execute at @a if score ticks stardetect matches 22801..23000 run particle minecr
 execute at @a if score ticks stardetect matches 23001..23150 run particle minecraft:end_rod ~ ~24 ~ 50 3 50 0.05 7
 execute at @a if score ticks stardetect matches 23151..23300 run particle minecraft:end_rod ~ ~24 ~ 50 3 50 0.05 3
 execute at @a if score ticks stardetect matches 23301..23550 run particle minecraft:end_rod ~ ~24 ~ 50 3 50 0.05 1
+
+#wax ons
+execute at @a if score ticks stardetect matches 13201..13400 run particle minecraft:wax_on ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13401..13600 run particle minecraft:wax_on ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13601..13800 run particle minecraft:wax_on ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13801..22400 run particle minecraft:wax_on ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 22401..22600 run particle minecraft:wax_on ~ ~30 ~ 30 3 30 3 1
+
+#wax offs
+execute at @a if score ticks stardetect matches 13201..13400 run particle minecraft:wax_off ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13401..13600 run particle minecraft:wax_off ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13601..13800 run particle minecraft:wax_off ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 13801..22400 run particle minecraft:wax_off ~ ~30 ~ 30 3 30 3 1
+execute at @a if score ticks stardetect matches 22401..22600 run particle minecraft:wax_off ~ ~30 ~ 30 3 30 3 1
+
